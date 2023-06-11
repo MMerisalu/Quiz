@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "WebApp\WebApp.csproj", "{63A9E603-F0BF-4300-850E-7FE64CE702E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{D3D90060-2F69-458E-BF02-932B69352578}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Base", "Base", "{3A21F600-E87F-4F32-87B9-C11AEB078AFF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{807451E6-5D23-4100-AEF9-F642822A26A2}"
+	ProjectSection(SolutionItems) = preProject
+		..\docker-compose-sql.yml = ..\docker-compose-sql.yml
+		..\README.md = ..\README.md
+		Dockerfile = Dockerfile
+		.dockerignore = .dockerignore
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Base.Domain.Contracts", "Base.Domain.Contracts\Base.Domain.Contracts.csproj", "{9FE015A7-7281-449E-A47A-D90D54890C2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Base.Domain", "Base.Domain\Base.Domain.csproj", "{75EDFE73-8751-4E10-9D90-5C224D8A2A3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Domain", "App.Domain\App.Domain.csproj", "{95711430-7735-4D3D-BF96-E2CEF3C7760B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.DAL.EF", "App.DAL.EF\App.DAL.EF.csproj", "{FB4FBC25-1AAD-4554-94F2-67528841422D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Base.Extensions", "Base.Extensions\Base.Extensions.csproj", "{A0908B10-9EC1-404F-BBF5-E856A3DABBD4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63A9E603-F0BF-4300-850E-7FE64CE702E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63A9E603-F0BF-4300-850E-7FE64CE702E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63A9E603-F0BF-4300-850E-7FE64CE702E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63A9E603-F0BF-4300-850E-7FE64CE702E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FE015A7-7281-449E-A47A-D90D54890C2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FE015A7-7281-449E-A47A-D90D54890C2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FE015A7-7281-449E-A47A-D90D54890C2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FE015A7-7281-449E-A47A-D90D54890C2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75EDFE73-8751-4E10-9D90-5C224D8A2A3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75EDFE73-8751-4E10-9D90-5C224D8A2A3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75EDFE73-8751-4E10-9D90-5C224D8A2A3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75EDFE73-8751-4E10-9D90-5C224D8A2A3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95711430-7735-4D3D-BF96-E2CEF3C7760B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95711430-7735-4D3D-BF96-E2CEF3C7760B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95711430-7735-4D3D-BF96-E2CEF3C7760B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95711430-7735-4D3D-BF96-E2CEF3C7760B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB4FBC25-1AAD-4554-94F2-67528841422D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB4FBC25-1AAD-4554-94F2-67528841422D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB4FBC25-1AAD-4554-94F2-67528841422D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB4FBC25-1AAD-4554-94F2-67528841422D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0908B10-9EC1-404F-BBF5-E856A3DABBD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0908B10-9EC1-404F-BBF5-E856A3DABBD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0908B10-9EC1-404F-BBF5-E856A3DABBD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0908B10-9EC1-404F-BBF5-E856A3DABBD4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{63A9E603-F0BF-4300-850E-7FE64CE702E2} = {D3D90060-2F69-458E-BF02-932B69352578}
+		{9FE015A7-7281-449E-A47A-D90D54890C2C} = {3A21F600-E87F-4F32-87B9-C11AEB078AFF}
+		{75EDFE73-8751-4E10-9D90-5C224D8A2A3B} = {3A21F600-E87F-4F32-87B9-C11AEB078AFF}
+		{95711430-7735-4D3D-BF96-E2CEF3C7760B} = {D3D90060-2F69-458E-BF02-932B69352578}
+		{FB4FBC25-1AAD-4554-94F2-67528841422D} = {D3D90060-2F69-458E-BF02-932B69352578}
+		{A0908B10-9EC1-404F-BBF5-E856A3DABBD4} = {3A21F600-E87F-4F32-87B9-C11AEB078AFF}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,22 @@
+version: '3.9'
+
+services:
+  quiz-mssql:
+    container_name: "quiz-mssql"
+    image: mcr.microsoft.com/azure-sql-edge:latest
+    restart: on-failure
+    ports:
+      - "1433:1433"
+    
+    environment:
+      - ACCEPT_EULA=1
+      - MSSQL_USER=SA
+      - MSSQL_SA_PASSWORD=Hobujaama10
+    
+    volumes:
+      - quiz-volume:/var/lib/mssql/data
+
+volumes:
+  quiz-volume:
+
+  
